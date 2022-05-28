@@ -33,7 +33,7 @@ def plot_cloud(seg_word_list, mask_dir, font_dir, output_dir):
     stopwords = set(STOPWORDS)
 
     wc = WordCloud(background_color="white",
-                   max_words=1000,
+                   max_words=100,
                    mask=mask,
                    stopwords=stopwords,
                    font_path=font_dir)
