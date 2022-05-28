@@ -61,6 +61,8 @@ class Ui_MainWindow(object):
         self.QualitySliderBar = QSlider(self.horizontalLayoutWidget_2)
         self.QualitySliderBar.setObjectName(u"QualitySliderBar")
         self.QualitySliderBar.setOrientation(Qt.Horizontal)
+        self.QualitySliderBar.setMinimum(1)
+        self.QualitySliderBar.setMaximum(100)
 
         self.horizontalLayout_2.addWidget(self.QualitySliderBar)
 
